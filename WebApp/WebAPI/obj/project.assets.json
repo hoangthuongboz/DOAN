@@ -671,19 +671,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hoang\\.nuget\\packages\\": {}
+    "C:\\Users\\canht\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NET\\WebApp\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "E:\\THUONG\\DOAN\\WebApp\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\.NET\\WebApp\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\.NET\\WebApp\\WebAPI\\obj\\",
+      "projectPath": "E:\\THUONG\\DOAN\\WebApp\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\canht\\.nuget\\packages\\",
+      "outputPath": "E:\\THUONG\\DOAN\\WebApp\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\canht\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -696,11 +700,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\.NET\\WebApp\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\.NET\\WebApp\\DAL\\DAL.csproj"
+            "E:\\THUONG\\DOAN\\WebApp\\DAL\\DAL.csproj": {
+              "projectPath": "E:\\THUONG\\DOAN\\WebApp\\DAL\\DAL.csproj"
             },
-            "D:\\.NET\\WebApp\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\.NET\\WebApp\\DTO\\DTO.csproj"
+            "E:\\THUONG\\DOAN\\WebApp\\DTO\\DTO.csproj": {
+              "projectPath": "E:\\THUONG\\DOAN\\WebApp\\DTO\\DTO.csproj"
             }
           }
         }

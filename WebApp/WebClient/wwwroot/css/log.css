@@ -7,10 +7,23 @@
 form {
     box-sizing: border-box;
     width: 300px;
-    margin: 100px auto 0; /*cach tren 50px*/
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-    padding-bottom: 20px;
+    /*cach tren 50px*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    padding: 20px 0;
     border-radius: 3px;
+}
+
+form td:first-child {
+    text-align: left;
+}
+
+form tr {
+    height: 40px;
+}
+
+form td:last-child input {
+    width: 205px;
 }
 
 form h1 {
@@ -23,7 +36,7 @@ form label {
     margin-right: 10px;
 }
 
-.input input{
+.input input {
     margin: 25px 25px;
     width: 250px;
     display: block;
@@ -38,16 +51,15 @@ form label {
     color: #0e6252;
 }
 
-
-
-
-.input input:focus, input:valid {
+.input input:focus,
+input:valid {
     box-shadow: none;
     outline: none;
     background-position: 0 0;
 }
 
-.input input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+.input input:focus::-webkit-input-placeholder,
+input:valid::-webkit-input-placeholder {
     color: #1abc9c;
     font-size: 11px;
     transform: translateY(-20px);
